@@ -1,0 +1,6 @@
+MongoDB setup:
+1. Install MongoDB Community Server.
+2. Start the MongoDB service.
+3. The Node backend automatically uses:
+   mongodb://127.0.0.1:27017/smartcanteen
+No username/password is needed for a default local installation.

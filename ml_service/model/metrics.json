@@ -1,0 +1,35 @@
+{
+  "target": "actual_sales",
+  "features": [
+    "item",
+    "students_present",
+    "weather",
+    "temperature",
+    "exam_day",
+    "college_event",
+    "holiday",
+    "item_price",
+    "previous_day_sales",
+    "previous_week_sales"
+  ],
+  "rows": 1470,
+  "test_rows": 294,
+  "models": {
+    "Linear Regression": {
+      "mae": 13.71,
+      "rmse": 20.47,
+      "r2": 0.9374
+    },
+    "Decision Tree": {
+      "mae": 10.83,
+      "rmse": 16.13,
+      "r2": 0.9611
+    },
+    "Random Forest": {
+      "mae": 7.67,
+      "rmse": 11.33,
+      "r2": 0.9808
+    }
+  },
+  "selected_model": "Random Forest"
+}
